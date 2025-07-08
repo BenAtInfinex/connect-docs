@@ -73,7 +73,7 @@ const config = {
     // announcementBar: {
     //   id: 'id-0010',
     //   content:
-    //     '🎉 Ethereum Wallets are here! Read more in our <a href="/blog/hello-ethereum-wallets">blogpost</a> and check our <a href="/tools/ethereum-wallets">tutorial to update your app</a> 🎉',
+    //     This is a cool announcement! Read <a href="/foo/bar-baz">foo</a>
     //   backgroundColor: '#fcfbfa',
     //   textColor: '#333',
     //   isCloseable: true,
@@ -94,8 +94,10 @@ const config = {
     navbar: {
       logo: {
         alt: 'Infinex Logo',
-        src: 'img/infinex.svg',
-        srcDark: 'img/infinex.svg',
+        src: 'img/infinex_logo.svg',
+        srcDark: 'img/infinex_logo_white.svg',
+        width: 106,
+        height: 20,
       },
       items: [
         {
@@ -130,7 +132,6 @@ const config = {
             },
           ],
         },
-        { label: 'Blog', to: '/blog', activeBaseRegex: '/blog', position: 'right' },
         {
           type: 'html',
           position: 'right',
